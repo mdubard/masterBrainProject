@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=codeSize
+comment0.target=MBBoard(int)
+comment0.text=\r\n\ This\ is\ a\ constructor\ which\ sets\ the\ number\ of\ values\ \r\n\ in\ the\ code\ and\ sets\ the\ code\ to\ be\ a\ random\ sequence\ \r\n\ of\ values\ from\ 0\ to\ HI_LIMIT.\r\n\ @param\ codeSize\ \ \ \ Number\ of\ values\ in\ the\ code\r\n
+comment1.params=
+comment1.target=int\ codeSize()
+comment1.text=\r\n\ This\ method\ returns\ the\ number\ of\ values\ in\ this\ code.\r\n\ @return\ The\ number\ of\ values\ in\ the\ code\r\n
+comment2.params=
+comment2.target=java.lang.String\ getCode()
+comment2.text=\r\n\ This\ method\ returns\ a\ string\ representation\ of\ the\ code.\r\n\ For\ example,\ if\ the\ code\ is\ the\ sequence\ of\ values\r\n\ 9,\ 3,\ 5,\ 1,\ and\ 6,\ this\ method\ would\ return\ the\ string\r\n\ "93516".\r\n\ @return\ A\ string\ representation\ of\ the\ code\r\n
+comment3.params=guess
+comment3.target=int\ getExactMatch(int[])
+comment3.text=\r\n\ This\ method\ returns\ the\ number\ of\ values\ in\ the\ guess\ that\r\n\ have\ a\ match\ at\ the\ corresponding\ position\ in\ the\ code.\r\n\ @param\ guess\ A\ guess\ of\ what\ the\ code\ is\r\n\ @return\ The\ number\ of\ exact\ matches\ in\ the\ guess.\r\n
+comment4.params=target\ array
+comment4.target=int\ inArrayCount(int,\ int[])
+comment4.text=\r\n\ This\ helper\ function\ returns\ the\ number\ of\ times\ the\r\n\ value\ <code>target</code>\ exists\ in\ the\ array\ <code>array</code>\r\n\ @param\ target\ The\ value\ to\ be\ searched\ for\r\n\ @param\ array\ The\ array\ to\ search\ in\r\n\ @return\ The\ number\ of\ time\ the\ target\ exists\ in\ the\ array.\r\n
+comment5.params=guess
+comment5.target=int\ getAnyMatch(int[])
+comment5.text=\r\n\ This\ method\ returns\ the\ number\ of\ values\ in\ the\ guess\ that\r\n\ match\ a\ value\ in\ the\ code,\ without\ considering\ position.\r\n\ (The\ number\ of\ matches\ includes\ the\ exact\ matches.)\r\n\ @param\ guess\ A\ guess\ of\ what\ the\ code\ is\r\n\ @return\ The\ number\ of\ matches\ in\ the\ guess.\r\n
+numComments=6

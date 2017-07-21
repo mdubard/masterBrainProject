@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=size\ winNumber
+comment0.target=MBGame(int,\ int)
+comment0.text=\r\n\ This\ constructor\ sets\ the\ number\ of\ values\ in\ the\ code,\r\n\ the\ maximum\ number\ of\ allowed\ guesses,\ and\ sets\ the\ number\r\n\ of\ guesses\ so\ far\ to\ 0.\r\n\ @param\ size\ \ \ \ \ \ \ Number\ of\ values\ in\ the\ code\r\n\ @param\ winNumber\ \ \ Maximum\ number\ of\ allowed\ guesses\r\n
+comment1.params=stdIn
+comment1.target=java.lang.String\ readGuess(java.util.Scanner)
+comment1.text=\r\n\ This\ helper\ method\ prompts\ for\ and\ reads\ in\ a\ guess\ for\ this\ game\ and\r\n\ returns\ the\ guess\ as\ a\ String.\ \ If\ the\ user\ enters\ an\ invalid\r\n\ string\ (it\ has\ the\ wrong\ number\ of\ characters),\ the\r\n\ method\ outputs\ an\ error\ message,\ prompts\ again,\ and\r\n\ and\ reads\ another\ guess.\ \ The\ method\ continues\ doing\ this\r\n\ until\ a\ valid\ guess\ is\ entered.\r\n\ @param\ stdIn\ Scanner\ input\ string\ is\ read\ from\r\n\ @return\ The\ String\ entered\r\n
+comment2.params=str
+comment2.target=int[]\ stringToIntArray(java.lang.String)
+comment2.text=\r\n\ This\ helper\ function\ converts\ a\ string\ of\ digits\ to\r\n\ an\ array\ of\ integers,\ one\ element\ in\ the\ array\ for\ each\r\n\ digit.\ \ If\ the\ string\ contains\ a\ character\ other\ than\ a\ \r\n\ digit,\ the\ corresponding\ element\ in\ the\ array\ is\ set\ to\ -1.\r\n\ @param\ str\ The\ string\ to\ be\ converted\r\n\ @return\ The\ array\ of\ integers\ the\ string\ is\ converted\ to\r\n
+comment3.params=stdin
+comment3.target=boolean\ playGame(java.util.Scanner)
+comment3.text=\r\n\ This\ method\ plays\ a\ MasterBrain\ game.\ It\ returns\ true\r\n\ if\ the\ player\ wins,\ false\ otherwise.\ \ A\ player\ wins\ if\ they\ guess\r\n\ the\ code\ within\ the\ specified\ number\ of\ guesses.\ After\ each\r\n\ guess\ is\ entered,\ the\ method\ outputs\ the\ result\ (the\ blue\ and\r\n\ grey\ count)\ for\ that\ guess.\ \ At\ the\ conclusion\ of\ the\ game,\r\n\ if\ the\ user\ did\ not\ correctly\ guess\ the\ code,\ the\ method\r\n\ outputs\ what\ the\ code\ was.\r\n\ @param\ stdin\ Standard\ input\ for\ player\ dialog\r\n\ @return\ \ True\ if\ player\ wins,\ false\ otherwise.\r\n
+numComments=4
